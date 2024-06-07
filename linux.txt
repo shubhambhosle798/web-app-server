@@ -1,7 +1,7 @@
-sudo su
-yum update -y
-yum install httpd -y
-systemctl start httpd
-systemctl status httpd
-cd /var/www/html/
-vi index.html
+sudo su                     #This will make you super user
+yum update -y               #This will update the files if rquired
+yum install httpd -y        #This will install the httpd service
+systemctl start httpd       #This will start the service
+systemctl status httpd      #This will show the status of the service
+cd /var/www/html/           #This will push you to html directory
+vi index.html               #This will create the html file with the name 'index'
